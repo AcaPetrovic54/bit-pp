@@ -2,26 +2,26 @@
 season it is. All inputs different from 1-12 output a message explaining that input must be a
 number between 1 and 12. */
 
-var season = "9"
+var season = 9
 switch (season) {
-    case "12":
-    case "1":
-    case "2":
+    case 1:
+    case 2:
+    case 3:
         console.log("Winter");
         break;   
-    case "3":
-    case "4":
-    case "5":
+    case 4:
+    case 5:
+    case 6:
         console.log("Spring");   
         break;    
-    case "6":
-    case "7":
-    case "8":
+    case 7:
+    case 8:
+    case 9:
         console.log("Summer");
         break;
-    case "9":
-    case "10":
-    case "11":
+    case 10:
+    case 11:
+    case 12:
         console.log("Fall");
         break;
 

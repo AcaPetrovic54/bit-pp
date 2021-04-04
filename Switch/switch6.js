@@ -3,7 +3,7 @@ message about that grade in the following manner: A - &quot;Good job&quot;&quot;
 &quot;Passed&quot;&quot;, D - &quot;Not so good&quot;&quot;, F - &quot;Failed&quot;. Input different from letters A-F outputs a message
 &quot;Unknown grade&quot;. */
 
-var grade = "5rtr"
+var grade = "C"
 switch (grade) {
     case "A":
       console.log("Good job");

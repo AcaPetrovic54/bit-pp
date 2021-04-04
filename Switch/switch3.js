@@ -4,22 +4,23 @@ number between 1 and 7.
 For input 2, output should be “It’s weekday”.
 For input 6, output should be “It’s weekend”.
 For input 12, output should be “Input must be number between 1 and 7”. */
-var day = "3"
+
+var day = 6
 switch (day) {
-    case "1":
+    case 1:
 
-    case "2":
+    case 2:
 
-    case "3":
+    case 3:
 
-    case "4":
+    case 4:
 
-    case "5":
+    case 5:
         console.log("It’s weekday");
         break;
-    case "6":
+    case 6:
 
-    case "7":
+    case 7:
         console.log("It’s weekend");
         break;
     default:

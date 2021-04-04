@@ -3,28 +3,28 @@
 and 7.
 For input 1, output should be “Monday”.
 For input 10, output should be “Input must be a number between 1 and 7”. */
-var day = "10"
+var day = 5
 switch (day) {
-    case "1":
+    case 1:
       console.log("Monday");
       break;
 
-    case "2":
+    case 2:
       console.log("Tuesday");
       break;
-    case "3":
+    case 3:
         console.log("Wenesday");
         break;
-    case "4":
+    case 4:
         console.log("Thursday");
         break;
-    case "5":
+    case 5:
         console.log("Friday");
         break;
-    case "6":
+    case 6:
         console.log("Sathurday");
         break;
-    case "7":
+    case 7:
         console.log("Sunday");
         break;
     default:
